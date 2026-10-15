@@ -44,3 +44,31 @@ Texto del apartado anterior.
 ---
 
 Texto de un bloque distinto.
+
+```bash
+git status
+git diff --staged
+```
+
+```python
+nombre_modulo = "mi_modulo"
+print(nombre_modulo)
+```
+
+| Archivo | Función | Se versiona |
+| --- | --- | :---: |
+| `GUIA_PROYECTO.md` | Instrucciones propias | Sí |
+| `.venv/` | Entorno local | No |
+| `*.local.conf` | Configuración privada | No |
+
+
+Escribe \*texto\* para mostrar los asteriscos.
+
+| Expresión | Significado |
+| --- | --- |
+| `a \| b` | Una barra vertical dentro de la celda |
+
+```text
+On branch main
+nothing to commit, working tree clean
+```
