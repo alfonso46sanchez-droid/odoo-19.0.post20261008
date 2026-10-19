@@ -4,12 +4,18 @@ Este proyecto reúne mis módulos de prácticas.
 
 ## Requisitos
 
-Explica aquí qué necesita otra persona para trabajar.
+| Elemento | Versión utilizada o procedencia |
+| --- | --- |
+| Odoo | 19.0, paquete 19.0.post20261008 |
+| Python | 3.14.4 |
+| PostgreSQL | 18.6 |
+| Sistema | Ubuntu 26.04.1 LTS en WSL |
 
 ### Entorno de Python
 
-Indica la versión realmente utilizada.
-## Requisitos
+Se usa Python 3.14.4 dentro del entorno virtual `.venv/`.
+
+## Estructura
 
 La carpeta **custom_addons** contiene nuestros módulos.
 
