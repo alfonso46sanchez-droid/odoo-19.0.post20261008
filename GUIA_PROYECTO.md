@@ -1,5 +1,9 @@
 # Proyecto de prácticas de Odoo 19
 
+## Objetivo
+
+
+
 Este proyecto reúne mis módulos de prácticas.
 
 ## Requisitos
@@ -16,6 +20,15 @@ Este proyecto reúne mis módulos de prácticas.
 Se usa Python 3.14.4 dentro del entorno virtual `.venv/`.
 
 ## Estructura
+
+- `custom_addons/`: módulos desarrollados en clase.
+- `docs/img/`: capturas de documentación sin datos privados.
+- `requirements.txt`: dependencias de Python de referencia.
+- `GUIA_PROYECTO.md`: instrucciones de este proyecto.
+
+El código base de Odoo y `.venv/` no se incluyen en Git.
+El README original de Odoo se conserva en la instalación.
+El repositorio no contiene la base de datos ni el filestore.
 
 La carpeta **custom_addons** contiene nuestros módulos.
 
