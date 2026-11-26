@@ -8,8 +8,9 @@
                 <field name="name"/>
                 <field name="autor"/>
                 <field name="isbn"/>
-                <field name="paginas"/>
                 <field name="genero"/>
+                <field name="tema_ids" widget="many2many_tags"/>
+                <field name="paginas"/>
                 <field name="disponible"/>
             </list>
         </field>
@@ -22,13 +23,18 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="name"/>
-                        <field name="autor"/>
-                        <field name="isbn"/>
-                        <field name="fecha_publicacion"/>
-                        <field name="paginas"/>
-                        <field name="genero"/>
-                        <field name="disponible"/>
+                        <group>
+                            <field name="name"/>
+                            <field name="autor"/>
+                            <field name="isbn"/>
+                            <field name="genero"/>
+                        </group>
+                        <group>
+                            <field name="fecha_publicacion"/>
+                            <field name="paginas"/>
+                            <field name="disponible"/>
+                            <field name="tema_ids" widget="many2many_tags"/>
+                        </group>
                     </group>
                 </sheet>
             </form>
@@ -43,5 +49,5 @@
 
     <menuitem id="menu_biblioteca" name="Biblioteca"/>
     <menuitem id="menu_libros" name="Libros"
-              parent="menu_biblioteca" action="libro_action"/>
+              parent="menu_biblioteca" action="libro_action" sequence="10"/>
 </odoo>
